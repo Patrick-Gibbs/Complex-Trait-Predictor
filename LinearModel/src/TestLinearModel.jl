@@ -94,8 +94,7 @@ end
 
 # Performs Kfold Cross validation given a data set and a model, returns the average
 # corrolation of all k tests
-function kFoldCrossValidation(dataSet::LinearSNPDataSet, model::Function; k=10, plotName="recentPlot.png")
-        ::KFoldCrossValidationResult
+function kFoldCrossValidation(dataSet::LinearSNPDataSet, model::Function; k=10, plotName="recentPlot.png")::KFoldCrossValidationResult
     ###### Split dataset into k groups ######
     numberOfDataPoints = size(dataSet.SNPMatrix)[1]
     # shuffle() can be used here how added randomness.
