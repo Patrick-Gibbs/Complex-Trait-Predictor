@@ -1,0 +1,18 @@
+TODO
+
+#1 compute a kinship matrix for each indidual and compute jacards distance, PCA can also be used.
+# we are adding a Z which can be a kinship or PC otherwise a combination of both or even features from pheotypye data.
+# we can play with changing which one is fixed and which one is random.
+
+# Compute U from ML or baysian
+
+# for matrix julia -> R use csv for now.
+
+# also scope out the literature., try chi2^2 dist or other.
+
+# thus create a mixed model.
+
+
+# get micro.
+
+# INSTALL JULIA on the vm.
